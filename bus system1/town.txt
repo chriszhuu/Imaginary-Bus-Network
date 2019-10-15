@@ -1,0 +1,12 @@
+TOWN Ithaca NEIGHBOR NewYork Philadelphia
+TOWN NewYork NEIGHBOR Philadelphia Ithaca Buffalo 
+TOWN Philadelphia NEIGHBOR NewYork Baltimore
+TOWN Baltimore NEIGHBOR Philadelphia DC Annapolis 
+TOWN DC NEIGHBOR Baltimore Annapolis Richmond 
+TOWN Annapolis NEIGHBOR DC Baltimore 
+TOWN Richmond NEIGHBOR DC Athens 
+TOWN Athens NEIGHBOR Richmond Atlanta 
+TOWN Atlanta NEIGHBOR Athens Richmond Orlando Miami 
+TOWN Orlando NEIGHBOR Atlanta Miami 
+TOWN Miami NEIGHBOR Atlanta Orlando KeyWest 
+TOWN KeyWest NEIGHBOR Miami Homestead 

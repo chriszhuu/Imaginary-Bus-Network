@@ -1,0 +1,12 @@
+Ithaca NewYork Philadelphia 
+NewYork Philadelphia Baltimore 
+Philadelphia NewYork Ithaca 
+Baltimore DC Annapolis
+DC Richmond Athens 
+Annapolis Baltimore Philadelphia 
+Richmond Athens Atlanta 
+Athens Richmond DC 
+Atlanta Orlando Miami 
+Orlando Miami KeyWest 
+Miami Atlanta Richmond 
+KeyWest Miami Orlando 

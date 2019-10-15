@@ -1,0 +1,48 @@
+Person # 0 Flora Destination: Athens Currently_in Richmond On_bus 4
+Person # 1 Caroline Destination: Philadelphia Currently_in NewYork On_bus 0
+Person # 2 Chris Destination: Ithaca Currently_in NewYork On_bus 2
+Person # 3 Joshua Destination: NewYork Currently_in NewYork On_bus 2
+Person # 4 Rachel Destination: Orlando Currently_in Miami On_bus 11
+Person # 5 Matthew Destination: Miami Currently_in Miami On_bus 11
+Person # 6 Justin Destination: Baltimore Currently_in Baltimore On_bus 5
+Person # 7 Brenda Destination: Philadelphia Currently_in Baltimore On_bus 5
+Person # 8 Stella Destination: Philadelphia Currently_in Philadelphia On_bus 1
+Person # 9 Gin Destination: Baltimore Currently_in Philadelphia On_bus 1
+Person # 10 Andrew Destination: Richmond Currently_in Richmond On_bus 7
+Person # 11 Terry Destination: Atlanta Currently_in Athens On_bus None
+Person # 12 Tim Destination: Annapolis Currently_in DC On_bus None
+Person # 13 Jack Destination: Annapolis Currently_in DC On_bus 3
+Person # 14 John Destination: DC Currently_in DC On_bus 3
+Person # 15 Crystal Destination: Richmond Currently_in Atlanta On_bus 10
+Person # 16 Roy Destination: Miami Currently_in Miami On_bus 9
+Person # 17 Adam Destination: KeyWest Currently_in Miami On_bus 9
+Person # 18 Emilia Destination: Orlando Currently_in Miami On_bus None
+Person # 19 Xavier Destination: Richmond Currently_in Atlanta On_bus None
+Person # 20 Yan Destination: Athens Currently_in Athens On_bus 6
+Person # 21 Kai Destination: Miami Currently_in Orlando On_bus 8
+Person # 22 Vicky Destination: DC Currently_in Richmond On_bus None
+Person # 23 Sophy Destination: NewYork Currently_in NewYork On_bus 0
+Bus # 0 has_route Ithaca NewYork Philadelphia Current_location_index: 1 Capacity: 3 Current_passengers Caroline Sophy 
+Bus # 1 has_route NewYork Philadelphia Baltimore Current_location_index: 1 Capacity: 3 Current_passengers Stella Gin 
+Bus # 2 has_route Philadelphia NewYork Ithaca Current_location_index: 1 Capacity: 3 Current_passengers Chris Joshua 
+Bus # 3 has_route Baltimore DC Annapolis Current_location_index: 1 Capacity: 3 Current_passengers Jack John 
+Bus # 4 has_route DC Richmond Athens Current_location_index: 1 Capacity: 3 Current_passengers Flora 
+Bus # 5 has_route Annapolis Baltimore Philadelphia Current_location_index: 1 Capacity: 3 Current_passengers Justin Brenda 
+Bus # 6 has_route Richmond Athens Atlanta Current_location_index: 1 Capacity: 3 Current_passengers Yan 
+Bus # 7 has_route Athens Richmond DC Current_location_index: 1 Capacity: 3 Current_passengers Andrew 
+Bus # 8 has_route Atlanta Orlando Miami Current_location_index: 1 Capacity: 3 Current_passengers Kai 
+Bus # 9 has_route Orlando Miami KeyWest Current_location_index: 1 Capacity: 3 Current_passengers Roy Adam 
+Bus # 10 has_route Miami Atlanta Richmond Current_location_index: 1 Capacity: 3 Current_passengers Crystal 
+Bus # 11 has_route KeyWest Miami Orlando Current_location_index: 1 Capacity: 3 Current_passengers Rachel Matthew 
+Town Ithaca NewYork Philadelphia 
+Town NewYork Philadelphia Ithaca Buffalo 
+Town Philadelphia NewYork Baltimore 
+Town Baltimore Philadelphia DC Annapolis 
+Town DC Baltimore Annapolis Richmond 
+Town Annapolis DC Baltimore 
+Town Richmond DC Athens 
+Town Athens Richmond Atlanta 
+Town Atlanta Athens Richmond Orlando Miami 
+Town Orlando Atlanta Miami 
+Town Miami Atlanta Orlando KeyWest 
+Town KeyWest Miami Homestead 
